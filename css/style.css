@@ -1,0 +1,33 @@
+/* Mobile view */
+body {
+    background-color: #D3D3D3;
+}
+
+#skip {
+    text-align: right;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+#logo {
+    text-align: center; 
+    font-size: 40px;
+}
+#logo:before {
+    content: 'Sub';
+    color: #00274C;
+}
+#logo:after {
+    content: 'Swap';
+    color: #FFCB05;
+}
+
+nav {
+    padding: 20px;
+    padding: 20px;
+}
+nav ul li{
+    display: inline;
+    padding-right: 20px;
+}
+
