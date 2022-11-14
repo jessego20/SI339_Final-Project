@@ -34,4 +34,14 @@ nav ul li{
     padding-right: 10px;
     padding-left: 10px;
 }
+nav ul li a {
+    text-decoration: none;
+    color: #00274C;
+    border: 3px solid #00274C;
+    padding: 3px;
+}
+#active a{
+    color: blue;
+    border: 3px solid blue;
+}
 
