@@ -73,6 +73,7 @@ nav ul li a:hover, nav ul li a:focus {
 #main2 div {
     grid-column: 2 / span 1;
     text-align: center;
+    width: 100%
 }
 #main2 img {
     border: 5px solid black;
@@ -88,7 +89,7 @@ nav ul li a:hover, nav ul li a:focus {
 /* slideshow */
 .PineValley, .Augusta, .Cypress, .Shinnecock, .Oakmont, 
 .Merion, .National, .PebbleBeach, .Fishers, .SandHills {
-    max-width: 100%;
+    width: 100%;
     position: relative;
     margin: auto;
 }
