@@ -75,20 +75,19 @@ nav ul li a:hover, nav ul li a:focus {
     text-align: center;
     width: 100%
 }
-#main2 img {
+.card img {
     border: 5px solid black;
     margin-top: 5px;
     width: 100%;
 }
-#main2 div h2 {
+.card h2 {
     font-family: sans-serif;
     margin-top: 10px;
     font-size: 20px;
 }
 
 /* slideshow */
-.PineValley, .Augusta, .Cypress, .Shinnecock, .Oakmont, 
-.Merion, .National, .PebbleBeach, .Fishers, .SandHills {
+.card {
     width: 100%;
     position: relative;
     margin: auto;
@@ -123,14 +122,6 @@ nav ul li a:hover, nav ul li a:focus {
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
 }
-  /* Number text */
-.number {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
 /* The dots/bullets/indicators */
 .dot {
     cursor: pointer;
@@ -144,6 +135,22 @@ nav ul li a:hover, nav ul li a:focus {
 }
 .active, .dot:hover {
     background-color: #717171;
+}
+
+/* Rest of World page */
+#main3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#main3 div {
+    flex-basis: 320px;
+    margin: 7.5px;
+}
+.slidesW {
+    display: none;
 }
 
 
@@ -179,8 +186,8 @@ nav ul li a:hover, nav ul li a:focus {
     }
 }
 
-/* Media Query –– min-width 900px */
-@media screen and (min-width: 900px){
+/* Media Query –– min-width 1000px */
+@media screen and (min-width: 1000px){
     .nav-links {
         justify-content: space-evenly;
     }
@@ -209,5 +216,14 @@ nav ul li a:hover, nav ul li a:focus {
     }
     #main2 div img {
         height: 85%;
+    }
+    #main3 div {
+        flex-basis: 300px;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    #main3 div {
+        flex-basis: 340px;
     }
 }
