@@ -1,6 +1,6 @@
 let slideIndex = [1,1,1,1,1,1,1,1,1,1];
 let slideId = ["slidesW 1", "slidesW 2", "slidesW 3", "slidesW 4", "slidesW 5", "slidesW 6", "slidesW 7", "slidesW 8", "slidesW 9", "slidesW 10"]
-let dotId = ["dot 1", "dot 2", "dot 3", "dot 4", "dot 5", "dot 6", "dot 7", "dot 8", "dot 9", "dot 10"]
+let dotId = ["dot 1W", "dot 2W", "dot 3W", "dot 4W", "dot 5W", "dot 6W", "dot 7W", "dot 8W", "dot 9W", "dot 10W"]
 for (let i = 0; i < 10; i++) {
     showSlides(1, i)
 }

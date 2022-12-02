@@ -214,6 +214,9 @@ nav ul li a:hover, nav ul li a:focus {
     #main2 div:nth-child(3n + 3) {
         grid-column: 3 / span 1;
     }
+    #SandHills {
+        grid-column: 2 / span 1;
+    }
     #main2 div img {
         height: 85%;
     }
