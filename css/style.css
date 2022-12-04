@@ -147,7 +147,7 @@ nav ul li a:hover, nav ul li a:focus {
     text-align: center;
 }
 #main3 div {
-    flex-basis: 320px;
+    flex-basis: 430px;
     margin: 7.5px;
 }
 .slidesW {
@@ -180,6 +180,11 @@ nav ul li a:hover, nav ul li a:focus {
     }
     #main2 div h2 {
         font-size: 15px;
+    }
+    
+    /* World page */
+    #main3 div {
+        flex-basis: 320px;
     }
 }
 
@@ -219,11 +224,5 @@ nav ul li a:hover, nav ul li a:focus {
     }
     #main3 div {
         flex-basis: 300px;
-    }
-}
-
-@media screen and (min-width: 1250px) {
-    #main3 div {
-        flex-basis: 340px;
     }
 }
