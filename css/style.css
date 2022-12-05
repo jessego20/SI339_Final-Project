@@ -4,10 +4,32 @@
 /* Mobile view */
 body {
     background-image: url("../images/background.png");
-    background-size: auto;
-    background-repeat: repeat;
+    background-color: black;
+    /* background-size: auto; */
+    /* background-repeat: repeat; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-main {
+#main {
+    margin-top: 30px;
+    text-align: center;
+}
+#main h2 {
+    font-size: 40px;
+}
+#main div {
+    background: white;
+    border: 5px solid black;
+    margin: 25px 10% 25px 10%;
+    padding: 5%;
+}
+#main div h3 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+#main2, #main3 {
     margin-left: 20px;
     margin-right: 20px;
     background-color: white;
@@ -19,13 +41,15 @@ footer {
     padding: 5px;
 }
 #skip {
+    background: black;
+    padding: 5px;
     position: absolute;
     right: 20px;
     top: 10px;
     font-size: 15px;
 }
 #skip a{
-    color: black;
+    color: #12B00C;
     font-weight: 600;
 }
 #logo {
@@ -35,7 +59,7 @@ footer {
     color: white;
     font-weight: 900;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #04571a;
+    -webkit-text-stroke-color: #0a7506;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -165,6 +189,10 @@ nav ul li a:hover, nav ul li a:focus {
         font-size: 50px;
     }
 
+    #main div {
+        margin: 25px 20% 25px 20%;
+    }
+
     /* USA page */
     #main2 {
         display: grid;
@@ -181,7 +209,7 @@ nav ul li a:hover, nav ul li a:focus {
     #main2 div h2 {
         font-size: 15px;
     }
-    
+
     /* World page */
     #main3 div {
         flex-basis: 320px;
@@ -198,6 +226,10 @@ nav ul li a:hover, nav ul li a:focus {
     }
     #logo {
         font-size: 60px;
+    }
+
+    #main div {
+        margin: 25px 30% 25px 30%;
     }
 
     /* USA page */
@@ -224,5 +256,13 @@ nav ul li a:hover, nav ul li a:focus {
     }
     #main3 div {
         flex-basis: 300px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    body {
+        background-size: 100%;
+        background-repeat: repeat;
+        background-attachment: inherit;
     }
 }
