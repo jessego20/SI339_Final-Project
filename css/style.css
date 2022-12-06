@@ -86,6 +86,8 @@ footer {
     background-color: white;
     color: #04571a;
     border: 3px solid #04571a;
+    text-decoration: underline;
+    font-weight: bold;
 }
 nav ul li a:hover, nav ul li a:focus {
     text-decoration: underline;
